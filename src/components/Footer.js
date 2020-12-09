@@ -22,8 +22,9 @@ let Footer = () => {
               className="logo-redes-sociales"
             />
           </a>
+        <h3>Ivoox</h3>
+        <h3>You now</h3>
         </span>
-        <h4>You now</h4>
       </footer>
     </>
   );

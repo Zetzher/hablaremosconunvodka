@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import SideNav, {
   Toggle,
   Nav,
@@ -10,16 +10,27 @@ import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faMicrophoneAlt } from "@fortawesome/free-solid-svg-icons";
+import  ClickOutside  from "../lib/ClickOutside";
 
-const Sidebar = () => {
+class Sidebar extends Component  {
+  state= {
+
+  }
+render(){
   return (
     <>
+    <ClickOutside
+    onClickOutside={() => {
+        this.setState({ expanded: false });
+    }}
+>
       <SideNav
-        onSelect={(selected) => {
-          // Add your code here
+       expanded={this.state.expanded}
+        onToggle={(expanded) => {
+            this.setState({ expanded });
         }}
       >
-        <SideNav.Toggle />
+        <SideNav.Toggle/>
         <SideNav.Nav defaultSelected="home">
           <NavItem eventKey="home">
             <NavIcon>
@@ -38,8 +49,9 @@ const Sidebar = () => {
           </NavItem>
         </SideNav.Nav>
       </SideNav>
+      </ClickOutside>
     </>
-  );
+  );}
 };
 
 export default Sidebar;
