@@ -1,14 +1,13 @@
 import React from "react";
 import Podcasts from "../components/Podcasts";
 import Footer from "../components/Footer";
+import SideBar from "../components/Sidebar";
 
 let LandingPage = () => {
   return (
     <>
       <div className="container-landing">
-        <aside>
-          <h5>Opciones</h5>
-        </aside>
+        <SideBar />
         <section>
           <h1 className="title-landing">Hablemos con un vodka</h1>
           <h3>On Line</h3>

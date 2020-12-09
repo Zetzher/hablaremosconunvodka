@@ -6,10 +6,12 @@ import LandingPage from "./pages/LandingPage";
 class App extends Component {
   render() {
     return (
-    <Switch>
-      <Route exact path="/" component={LandingPage} />
-    </Switch>
-    )
+      <>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+        </Switch>
+      </>
+    );
   }
 }
 
