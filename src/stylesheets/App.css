@@ -1,0 +1,91 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+breakpoint {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container-landing {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.container-landing div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-landing aside {
+  position: absolute;
+  left: 20px;
+}
+
+.container-landing footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.container-landing footer span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-redes-sociales {
+  width: 50px;
+  margin: 0px 100px;
+}
+
