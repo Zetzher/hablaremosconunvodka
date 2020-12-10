@@ -39,7 +39,7 @@ let Footer = () => {
               className="logo-redes-sociales"
             />
           </a>
-          <a href="https://www.youtube.com/channel/UCS6kgylAP4D5mlAxvzbSeJg">
+          <a href="https://www.youtube.com/channel/UC1qZ8wODJGoJjOk6TO-1yHw">
             <img
               src={Youtube}
               alt="logo-younow"
