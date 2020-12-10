@@ -1,21 +1,28 @@
 import React from "react";
-import Podcasts from "../components/Podcasts";
-import Footer from "../components/Footer";
-import SideBar from "../components/Sidebar";
+import { Link } from "react-router-dom";
+import Contacto from "../components/Contacto";
+import ReactAudioPlayer from "react-audio-player";
+import IntroAudio from "../assets/musica/efecto_sonido_neon.mp3";
 
 let LandingPage = () => {
   return (
     <>
+      {/* <ReactAudioPlayer src={IntroAudio} autoPlay volume={0.3} /> */}
       <div className="container-landing">
-        <SideBar />
-        <section>
-          <h1 className="title-landing">Hablemos con un vodka</h1>
-          <h3>On Line</h3>
-          <h3>Directo</h3>
-          <h2>Redes</h2>
-          <Podcasts />
-        </section>
-        <Footer />
+        <h1 className="title-landing">
+          HABLAREMOS <br />
+          CON UN <br />
+          VODKA
+        </h1>
+        <h2 className="subtitle-landing">Julián Abasolo & Ilya Mitin</h2>
+        <div className="container-live">
+          <h3 className="title-live">ON</h3>
+          
+        </div>
+        <Link to="/podcast">
+          <h3 className="title-podcasts">Más Podcasts</h3>
+        </Link>
+        <Contacto />
       </div>
     </>
   );
