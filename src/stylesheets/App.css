@@ -70,6 +70,8 @@ breakpoint {
   position: absolute;
   bottom: 0px;
   left: 10px;
+  -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .contacto-container span {
@@ -141,6 +143,8 @@ breakpoint {
   align-items: center;
   justify-content: center;
   text-align: center;
+  -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .title-live {
@@ -211,6 +215,32 @@ breakpoint {
 }
 
 /* ANIMACIONES */
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes text-shadow-drop-center {
   0% {
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -538,6 +568,8 @@ breakpoint {
     position: absolute;
     left: 90px;
     bottom: 70px;
+    -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
   .contacto-container span {
@@ -596,6 +628,7 @@ breakpoint {
     bottom: 120px;
     letter-spacing: 2px;
     font-weight: lighter;
+    transform: rotate(90deg);
   }
   
   .container-live {
@@ -607,6 +640,8 @@ breakpoint {
     align-items: center;
     justify-content: center;
     text-align: center;
+    -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
   .title-live {
@@ -677,6 +712,31 @@ breakpoint {
   }
   
   /* ANIMACIONES */
+  @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
   @-webkit-keyframes text-shadow-drop-center {
     0% {
       text-shadow: 0 0 0 rgba(0, 0, 0, 0);
