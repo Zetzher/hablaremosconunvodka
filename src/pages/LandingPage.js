@@ -18,7 +18,7 @@ let LandingPage = () => {
         <h2 className="subtitle-landing">Julián Abasolo & Ilya Mitin</h2>
         <Directo />
         <Link to="/podcast">
-          <h3 className="title-podcasts">Más Podcasts</h3>
+          <h3 className="title-podcasts">Podcasts</h3>
         </Link>
         <Contacto />
       </div>

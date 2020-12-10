@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
-import podcast1x20 from "../assets/podcasts/elgrupo1-20.mp3";
 
 let Podcasts = () => {
   
