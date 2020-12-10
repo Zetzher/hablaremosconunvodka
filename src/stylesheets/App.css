@@ -80,6 +80,7 @@ breakpoint {
   font-size: 20px;
   letter-spacing: 2px;
   color: #f84620;
+  font-weight: lighter;
 }
 
 .container-landing {
@@ -107,7 +108,7 @@ breakpoint {
   left: 40px;
   top: 400px;
   font-weight: lighter;
-  font-family: "Codystar", cursive;
+  font-family: "Bungee Hairline", cursive;
   letter-spacing: 10px;
   color: #f84620;
   -webkit-animation: text-flicker-in-glow 5s linear both;
@@ -120,26 +121,61 @@ breakpoint {
   position: absolute;
   font-size: 20px;
   right: 150px;
-  bottom: 123px;
+  bottom: 120px;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 .container-live {
   position: absolute;
-  right: 90px;
-  top: 90px;
+  right: 50px;
+  top: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .title-live {
   color: #1e9a1f;
-  font-family: "Bungee Hairline", cursive;
-  font-size: 30px;
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
   -webkit-animation: text-shadow-drop-center 0.6s both;
   animation: text-shadow-drop-center 0.6s both;
-  margin-bottom: 30px;
+  position: relative;
+  right: 15px;
+  padding-bottom: 50px;
+}
+
+.title-off-live {
+  color: #6F1616;
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+  -webkit-animation: text-shadow-drop-center 0.6s both;
+  animation: text-shadow-drop-center 0.6s both;
+  position: relative;
+  right: 80px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.title-proximo-directo {
+  color: #f84620;
+  font-family: "Bungee Hairline", cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  position: relative;
+  right: 80px;
+  margin-top: 10px;
+  letter-spacing: 10px;
+}
+
+.title-podcasts {
+  font-size: 60px;
+  font-family: "Codystar", cursive;
+  letter-spacing: 10px;
+  color: #f84620;
 }
 
 
