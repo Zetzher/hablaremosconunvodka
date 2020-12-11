@@ -185,6 +185,7 @@ breakpoint {
   font-family: "Codystar", cursive;
   letter-spacing: 10px;
   margin-top: 20px;
+  margin-bottom: 10px;
   color: #f84620;
 }
 
@@ -602,8 +603,8 @@ breakpoint {
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #f84620;
-    -webkit-animation: text-flicker-in-glow 5s linear both;
-    animation: text-flicker-in-glow 5s linear both;
+    -webkit-animation: text-flicker-in-glow 30s linear both;
+    animation: text-flicker-in-glow 30s linear both;
   }
   
   .subtitle-landing {
@@ -615,8 +616,8 @@ breakpoint {
     font-family: "Bungee Hairline", cursive;
     letter-spacing: 10px;
     color: #f84620;
-    -webkit-animation: text-flicker-in-glow 5s linear both;
-    animation: text-flicker-in-glow 5s linear both;
+    -webkit-animation: text-flicker-in-glow 30s linear both;
+    animation: text-flicker-in-glow 30s linear both;
   }
   
   .title-podcasts {
@@ -682,6 +683,7 @@ breakpoint {
     font-size: 30px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
+    margin-bottom: 10px;
     color: #f84620;
   }
   

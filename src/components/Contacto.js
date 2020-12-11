@@ -25,20 +25,6 @@ let Footer = () => {
               className="logo-redes-sociales"
             />
           </a>
-          <a href="https://www.twitch.tv/hablaremosconunvodka">
-            <img
-              src={TwitchLogo}
-              alt="logo-twitch"
-              className="logo-redes-sociales"
-            />
-          </a>
-          <a href="https://www.younow.com/hablaremosconunvodka">
-            <img
-              src={Younow}
-              alt="logo-younow"
-              className="logo-redes-sociales"
-            />
-          </a>
           <a href="https://www.youtube.com/channel/UC1qZ8wODJGoJjOk6TO-1yHw">
             <img
               src={Youtube}
