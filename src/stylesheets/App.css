@@ -70,8 +70,10 @@ breakpoint {
   position: absolute;
   bottom: 20px;
   left: 10px;
-  -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: scale-in-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: scale-in-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          
+          animation-delay: 7s
 }
 
 .contacto-container span {
@@ -143,8 +145,10 @@ breakpoint {
   align-items: center;
   justify-content: center;
   text-align: center;
-  -webkit-animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-center 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: scale-in-center 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: scale-in-center 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+          animation-delay: 7s
 }
 
 .title-live {
@@ -156,17 +160,18 @@ breakpoint {
   position: relative;
   right: 15px;
   padding-bottom: 50px;
+
+  animation-delay: 7s
 }
 
 .title-off-live {
   color: #6f1616;
   font-family: "Bungee", cursive;
   font-size: 16px;
-  -webkit-animation: text-shadow-drop-center 0.6s both;
-  animation: text-shadow-drop-center 0.6s both;
   position: relative;
   left: 10px;
   font-weight: bold;
+  
 }
 
 .title-proximo-directo {
@@ -571,7 +576,7 @@ breakpoint {
     bottom: 70px;
     -webkit-animation: scale-in-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: scale-in-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation-delay: 9s
+          animation-delay: 7s
   }
   
   .contacto-container span {
@@ -644,7 +649,7 @@ breakpoint {
     text-align: center;
     -webkit-animation: scale-in-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 9s;
+    animation-delay: 7s
   }
   
   .title-live {
@@ -656,6 +661,7 @@ breakpoint {
     position: relative;
     right: 15px;
     padding-bottom: 50px;
+    animation-delay: 7s
   }
   
   .title-off-live {
@@ -668,6 +674,7 @@ breakpoint {
     right: 80px;
     margin-top: 10px;
     font-weight: bold;
+    animation-delay: 7s
   }
   
   .title-proximo-directo {
