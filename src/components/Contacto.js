@@ -1,8 +1,6 @@
 import React from "react";
 import InstagramLogo from "../assets/images/logo_instagram.png";
 import TwitterLogo from "../assets/images/logo_twitter.png";
-import TwitchLogo from "../assets/images/logo_twitch.png";
-import Younow from "../assets/images/logo_younow.jpg";
 import Youtube from "../assets/images/logo_youtube.png";
 
 let Footer = () => {
