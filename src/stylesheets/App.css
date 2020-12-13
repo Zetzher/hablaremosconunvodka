@@ -204,6 +204,7 @@ breakpoint {
 }
 
 .podcasts-position {
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -710,6 +711,14 @@ breakpoint {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+  }
+
+  .podcasts-position h4 {
+    font-family: "Bungee Hairline", cursive;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
   }
 
   .podcasts-group-position {
