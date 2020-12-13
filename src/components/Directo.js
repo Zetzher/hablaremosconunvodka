@@ -6,7 +6,7 @@ let Directo = () => {
   const imagen = [
     {
       id: 1,
-      url: "https://www.youtube.com/embed/hvoA85_AC2o",
+      url: "https://www.youtube.com/embed/OJ9SEjCPXI8",
       title: "Directo",
     },
   ];

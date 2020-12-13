@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 import Introduccion from "../assets/podcasts/intro_hablaremos_vodka.mp3";
+import Temporada1_01 from "../assets/podcasts/Temporada1/01x01.mp3";
 
 let Podcasts = () => {
   return (
@@ -17,6 +18,7 @@ let Podcasts = () => {
         <div className="podcasts-group-position">
           <div className="podcasts-position">
             <h3 className="title-temporada">Temporada 1</h3>
+            <ReactAudioPlayer src={Temporada1_01} controls volume={1} />
           </div>
           {/* <div className="podcasts-position">
           <h3 className="title-temporada">Temporada 2</h3>
