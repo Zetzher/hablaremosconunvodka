@@ -18,6 +18,7 @@ let Podcasts = () => {
         <div className="podcasts-group-position">
           <div className="podcasts-position">
             <h3 className="title-temporada">Temporada 1</h3>
+            <h4>01x01 El sexo, esa gran incógnita</h4>
             <ReactAudioPlayer src={Temporada1_01} controls volume={1} />
           </div>
           {/* <div className="podcasts-position">
