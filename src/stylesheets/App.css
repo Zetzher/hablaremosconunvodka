@@ -211,7 +211,7 @@ breakpoint {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url("../assets/images/fondo-landingpage.jpg");
+    background-image: url("../assets/images/fondo-landingpage-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
