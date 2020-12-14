@@ -211,7 +211,6 @@ breakpoint {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position: relative;
     background-image: url("../assets/images/fondo-landingpage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
