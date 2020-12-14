@@ -15,7 +15,7 @@ let LandingPage = () => {
           CON UN <br />
           VODKA
         </h1>
-        <h2 className="subtitle-landing">Julián Abasolo & Ilya Mitin</h2>
+        <h2 className="subtitle-landing">Julián Abasolo <br/>& <br/>Ilya Mitin</h2>
         <Directo />
         <Link to="/podcast">
           <h3 className="title-podcasts">Podcasts</h3>

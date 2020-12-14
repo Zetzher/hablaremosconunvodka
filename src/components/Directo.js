@@ -32,7 +32,7 @@ let Directo = () => {
               ></iframe>
             </div>
           );
-        })} </> : <><h3 className="title-off-live">OFF</h3> {/*<h3 className="title-proximo-directo">Próximo directo <br/>19/12/2020</h3>*/}</> }
+        })} </> : <><h3 className="title-off-live">OFF</h3></> }
         
 
         
