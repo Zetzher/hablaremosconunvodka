@@ -7,10 +7,10 @@ import Temporada1_01 from "../assets/podcasts/Temporada1/01x01.mp3";
 let Podcasts = () => {
   return (
     <>
-      <Link to={"/"} className="volver-link">
-        Volver
-      </Link>
       <div className="podcasts-container">
+        <Link to={"/"} className="volver-link">
+          Volver
+        </Link>
         <div className="podcasts-position">
           <h3 className="title-temporada">Introducción</h3>
           <ReactAudioPlayer src={Introduccion} controls volume={1} />
