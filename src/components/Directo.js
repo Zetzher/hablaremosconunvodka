@@ -1,7 +1,7 @@
 import React from "react";
 
 let Directo = () => {
-    let live = true;
+    let live = false;
 
   const imagen = [
     {
