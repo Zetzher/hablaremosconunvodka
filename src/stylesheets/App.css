@@ -71,11 +71,6 @@ breakpoint {
     position: absolute;
     bottom: 20px;
     left: 10px;
-    -webkit-animation: scale-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: scale-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-    animation-delay: 7s;
   }
 
   .contacto-container span {
@@ -102,8 +97,6 @@ breakpoint {
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #f84620;
-    -webkit-animation: text-flicker-in-glow 5s linear both;
-    animation: text-flicker-in-glow 5s linear both;
   }
 
   .subtitle-landing {
@@ -115,8 +108,6 @@ breakpoint {
     font-family: "Neuton", serif;
     letter-spacing: 5px;
     color: #f84620;
-    -webkit-animation: text-flicker-in-glow 5s linear both;
-    animation: text-flicker-in-glow 5s linear both;
     text-align: center;
   }
 
@@ -151,25 +142,16 @@ breakpoint {
     align-items: center;
     justify-content: center;
     text-align: center;
-    -webkit-animation: scale-in-center 6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: scale-in-center 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-    animation-delay: 7s;
   }
 
   .title-live {
     color: #1e9a1f;
     font-family: "Bungee", cursive;
     font-size: 20px;
-    -webkit-animation: text-shadow-drop-center 0.6s both;
-    animation: text-shadow-drop-center 0.6s both;
     position: relative;
     right: 15px;
     top: 20px;
     padding-bottom: 50px;
-
-    animation-delay: 7s;
   }
 
   .title-off-live {
@@ -590,10 +572,6 @@ breakpoint {
     position: absolute;
     left: 90px;
     bottom: 70px;
-    -webkit-animation: scale-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: scale-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation-delay: 7s;
   }
 
   .contacto-container span {
@@ -626,8 +604,6 @@ breakpoint {
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #f84620;
-    -webkit-animation: text-flicker-in-glow 8s linear both;
-    animation: text-flicker-in-glow 8s linear both;
   }
 
   .subtitle-landing {
@@ -641,8 +617,6 @@ breakpoint {
     letter-spacing: 10px;
     color: #f84620;
     text-align: center;
-    -webkit-animation: text-flicker-in-glow 6s linear both;
-    animation: text-flicker-in-glow 6s linear both;
   }
 
   .title-podcasts {
@@ -666,35 +640,25 @@ breakpoint {
     align-items: center;
     justify-content: center;
     text-align: center;
-    -webkit-animation: scale-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: scale-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation-delay: 7s;
   }
 
   .title-live {
     color: #1e9a1f;
     font-family: "Bungee", cursive;
     font-size: 40px;
-    -webkit-animation: text-shadow-drop-center 0.6s both;
-    animation: text-shadow-drop-center 0.6s both;
     position: relative;
     right: 15px;
     padding-bottom: 50px;
-    animation-delay: 7s;
   }
 
   .title-off-live {
     color: #6f1616;
     font-family: "Bungee", cursive;
     font-size: 40px;
-    -webkit-animation: text-shadow-drop-center 0.6s both;
-    animation: text-shadow-drop-center 0.6s both;
     position: relative;
     right: 80px;
     margin-top: 10px;
     font-weight: bold;
-    animation-delay: 7s;
   }
 
   .title-proximo-directo {
