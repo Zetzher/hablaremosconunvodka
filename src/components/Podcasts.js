@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 let Podcasts = () => {
   return (
@@ -27,7 +27,15 @@ let Podcasts = () => {
             src="https://www.ivoox.com/player_ej_62767578_4_1.html?c1=ff6600"
           ></iframe>
         </div>
-        <FontAwesomeIcon icon={faArrowDown} style={{position: 'absolute', bottom: 50, color: '#f84620', fontSize: 50}} />
+        <FontAwesomeIcon
+          icon={faArrowDown}
+          style={{
+            position: "absolute",
+            bottom: 50,
+            color: "#f84620",
+            fontSize: 50,
+          }}
+        />
       </div>
       <div className="podcasts-container">
         <div className="podcasts-group-position">
@@ -55,7 +63,7 @@ let Podcasts = () => {
               <div>
                 <h4>01x02 Historias Oscuras y Deseos Ocultos</h4>
                 <iframe
-                title="historias, deseos"
+                  title="historias, deseos"
                   id="audio_62767511"
                   frameborder="0"
                   allowfullscreen=""
