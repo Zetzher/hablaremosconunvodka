@@ -72,7 +72,7 @@ let Podcasts = () => {
                   style={{
                     border: "1px solid #EEE",
                     boxSizing: "border-box",
-                    width: "90%",
+                    width: "100%",
                   }}
                   src="https://www.ivoox.com/player_ej_62767511_4_1.html?c1=ff6600"
                 ></iframe>
