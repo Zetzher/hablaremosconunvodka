@@ -70,7 +70,7 @@ breakpoint {
     justify-content: center;
     position: absolute;
     bottom: 200px;
-    left: 110px;
+    left: 90px;
     width: 200px;
   }
 
@@ -91,7 +91,7 @@ breakpoint {
 
   .title-landing {
     line-height: 50px;
-    font-size: 35px;
+    font-size: 30px;
     position: absolute;
     top: 20px;
     left: 40px;
@@ -112,7 +112,7 @@ breakpoint {
     height: 1px;
     position: absolute;
     top: 180px;
-    left: 180px;
+    left: 160px;
     background-color: #FFEF4B;
     opacity: 0.3;
   }
@@ -120,7 +120,7 @@ breakpoint {
   .subtitle-landing {
     font-size: 20px;
     position: absolute;
-    left: 110px;
+    left: 95px;
     top: 200px;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
@@ -136,7 +136,7 @@ breakpoint {
     font-family: "Codystar", cursive;
     position: absolute;
     font-size: 27px;
-    left: 108px;
+    left: 90px;
     bottom: 380px;
     letter-spacing: 10px;
     font-weight: bold;
