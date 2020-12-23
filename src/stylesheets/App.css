@@ -72,10 +72,9 @@ breakpoint {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* position: absolute;
-    bottom: 100px;
-    left: 90px; */
+    position: relative;
     width: 200px;
+    bottom: 40px;
   }
 
   .contacto-container span {
@@ -168,6 +167,7 @@ breakpoint {
     height: 218px;
     bottom: 115px;
     position: absolute;
+    opacity: 0;
     z-index: 0;
   }
 
