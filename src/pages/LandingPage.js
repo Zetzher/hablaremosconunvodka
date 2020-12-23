@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Contacto from "../components/Contacto";
 import Directo from "../components/Directo";
-
+import MarcoMadera from "../assets/images/pngwing.com.png";
 let LandingPage = () => {
   return (
     <>
@@ -13,7 +13,9 @@ let LandingPage = () => {
           VODKA
         </h1>
         <span className="span-borde-separador"></span>
+        
         <h2 className="subtitle-landing">Julián Abasolo <br/> <span id="simbolo-container-landing">&</span> <br/>Ilya Mitin</h2>
+        <img src={MarcoMadera} className="background-image-directo" />
         <Directo />
         <Link to="/podcast">
           <h3 className="title-podcasts">Podcasts</h3>
