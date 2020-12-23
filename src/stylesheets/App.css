@@ -56,6 +56,10 @@ breakpoint {
     background-image: url("../assets/images/background_podcast.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .logo-redes-sociales {
@@ -68,9 +72,9 @@ breakpoint {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute;
     bottom: 100px;
-    left: 90px;
+    left: 90px; */
     width: 200px;
   }
 
@@ -92,9 +96,8 @@ breakpoint {
   .title-landing {
     line-height: 50px;
     font-size: 30px;
-    position: absolute;
-    top: 20px;
-    left: 40px;
+    position: relative;
+    top: 40px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #ffa54b;
@@ -110,18 +113,17 @@ breakpoint {
   .span-borde-separador {
     width: 60px;
     height: 1px;
-    position: absolute;
+    /* position: absolute;
     top: 180px;
-    left: 160px;
+    left: 160px; */
     background-color: #ffef4b;
     opacity: 0.3;
   }
 
   .subtitle-landing {
     font-size: 20px;
-    position: absolute;
-    left: 95px;
-    top: 200px;
+    position: relative;
+    bottom: 30px;
     font-weight: lighter;
     font-family: "Raleway", sans-serif;
     letter-spacing: 5px;
@@ -134,10 +136,9 @@ breakpoint {
     color: #ffa54b;
     text-shadow: 0px 0px 30px #ffef4b;
     font-family: "Codystar", cursive;
-    position: absolute;
+    position: relative;
+    bottom: 50px;
     font-size: 27px;
-    left: 80px;
-    bottom: 400px;
     letter-spacing: 10px;
     font-weight: bold;
   }
@@ -153,20 +154,19 @@ breakpoint {
   }
 
   .container-live {
-    position: absolute;
-    top: 370px;
-    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 3px;
   }
   .background-image-directo {
-    width: 397px;
+    width: 345px;
     height: 218px;
-    bottom: 179px;
-    right: 33px;
+    bottom: 115px;
     position: absolute;
     z-index: 0;
   }
@@ -182,15 +182,14 @@ breakpoint {
   }
 
   .title-off-live {
-    color: #ffef4b;
+    color: #ffa54b;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     position: relative;
     letter-spacing: 10px;
     line-height: 30px;
-    left: 10px;
     font-weight: bold;
-    top: 30px;
+    bottom: 60px;
     -webkit-animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
       both;
     animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
@@ -263,8 +262,8 @@ breakpoint {
   }
 
   .container-live {
-    position: absolute;
-    right: 40px;
+    /* position: absolute;
+    right: 40px; */
   }
 
   .title-proximo-directo {
@@ -308,7 +307,7 @@ breakpoint {
   .volver-link {
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
-    color: #ffef4b;
+    color: #ffa54b;
     text-decoration: none;
     font-size: 20px;
     position: absolute;
@@ -404,11 +403,11 @@ breakpoint {
   }
 
   .background-image-directo {
-    width: 399px;
-    height: 220px;
+    width: 344px;
+    height: 218px;
     position: absolute;
-    bottom: 65px;
-    left: 446px;
+    bottom: 66px;
+    left: 455px;
     z-index: 0;
   }
 

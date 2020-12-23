@@ -1,7 +1,7 @@
 import React from "react";
 
 let Directo = () => {
-  let live = false;
+  let live = true;
 
   const imagen = [
     {
@@ -30,7 +30,7 @@ let Directo = () => {
                     
                     <iframe
                       className="embed-responsive-item"
-                      style={{border: 'none'}}
+                      style={{border: 'none', width: 260}}
                       src={item.url}
                       title={item.title}
                     ></iframe>
