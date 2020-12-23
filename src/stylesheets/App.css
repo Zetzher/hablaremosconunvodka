@@ -112,9 +112,8 @@ breakpoint {
   .span-borde-separador {
     width: 60px;
     height: 1px;
-    /* position: absolute;
-    top: 180px;
-    left: 160px; */
+    position: relative;
+    bottom: 20px;
     background-color: #ffef4b;
     opacity: 0.3;
   }
@@ -122,7 +121,7 @@ breakpoint {
   .subtitle-landing {
     font-size: 20px;
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
     font-weight: lighter;
     font-family: "Raleway", sans-serif;
     letter-spacing: 5px;
