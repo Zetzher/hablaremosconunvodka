@@ -406,6 +406,7 @@ breakpoint {
     left: 50px;
     bottom: 240px;
     text-decoration: none;
+    z-index: 1;
   }
 
   .title-podcasts h3 {
