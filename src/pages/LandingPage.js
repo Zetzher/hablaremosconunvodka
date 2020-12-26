@@ -18,7 +18,7 @@ let LandingPage = () => {
         <Link to="/podcast" className="title-podcasts">
           <h3>Podcasts</h3>
         </Link>
-        <img src={MarcoMadera} className="background-image-directo" />
+        
         <Directo />
         <Contacto />
       </div>
