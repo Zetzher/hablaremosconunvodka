@@ -11,10 +11,36 @@ let Podcasts = () => {
           Volver
         </Link>
         <div className="podcasts-position">
-          
-        <iframe title="temporada-1" src="https://open.spotify.com/embed/playlist/6k003jNUMI34aaQZjzf9j7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe
+            title="introduccion"
+            src="https://open.spotify.com/embed-podcast/episode/7K8sBCrsVQz9T5cwj01950"
+            width="250"
+            height="300"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          />
+          <iframe
+            title="01x01"
+            src="https://open.spotify.com/embed-podcast/episode/08kwLKdVA7XLU9pHyLBLoJ"
+            width="250"
+            height="300"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          />
+          <iframe
+            title="01x02"
+            src="https://open.spotify.com/embed-podcast/episode/1KYiXSCZ9lESrcyzDBTnTn"
+            width="250"
+            height="300"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          />
+        </div>
       </div>
-      </div>
+      <div className="podcasts-container"></div>
     </>
   );
 };
