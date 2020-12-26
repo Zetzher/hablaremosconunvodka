@@ -40,7 +40,6 @@ let Podcasts = () => {
           />
         </div>
       </div>
-      <div className="podcasts-container"></div>
     </>
   );
 };

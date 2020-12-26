@@ -15,8 +15,8 @@ let LandingPage = () => {
         <span className="span-borde-separador"></span>
         
         <h2 className="subtitle-landing">Julián Abasolo <br/> <span id="simbolo-container-landing">&</span> <br/>Ilya Mitin</h2>
-        <Link to="/podcast" style={{textDecoration: 'none'}}>
-          <h3 className="title-podcasts">Podcasts</h3>
+        <Link to="/podcast" className="title-podcasts">
+          <h3>Podcasts</h3>
         </Link>
         <img src={MarcoMadera} className="background-image-directo" />
         <Directo />
