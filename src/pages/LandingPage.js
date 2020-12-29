@@ -15,7 +15,7 @@ let LandingPage = () => {
         <span className="span-borde-separador"></span>
 
         <h2 className="subtitle-landing">
-          Julián Abasolo <br /> <span id="simbolo-container-landing">&</span>{" "}
+          Julián Abasolo <br /> &
           <br />
           Ilya Mitin
         </h2>

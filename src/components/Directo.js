@@ -1,12 +1,12 @@
 import React from "react";
 
 let Directo = () => {
-  let live = false;
+  let live = true;
 
   const imagen = [
     {
       id: 1,
-      url: "https://www.youtube.com/embed/mklx0E4gXyU",
+      url: "https://www.youtube.com/embed/_Ad6F64LKI0",
       title: "Directo",
     },
   ];

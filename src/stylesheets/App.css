@@ -106,11 +106,6 @@ breakpoint {
     text-shadow: 0px 0px 30px #ffef4b;
   }
 
-  #simbolo-container-landing {
-    font-size: 12px;
-    font-weight: lighter;
-  }
-
   .span-borde-separador {
     width: 60px;
     height: 1px;
@@ -125,7 +120,7 @@ breakpoint {
     position: relative;
     bottom: 50px;
     font-weight: lighter;
-    font-family: "Raleway", sans-serif;
+    font-family: "Bungee Hairline", cursive;
     letter-spacing: 5px;
     color: #ffa54b;
     text-align: center;
@@ -164,7 +159,7 @@ breakpoint {
     justify-content: center;
     text-align: center;
     position: relative;
-    bottom: 10px;
+    bottom: 50px;
     left: 3px;
   }
 
@@ -390,18 +385,12 @@ breakpoint {
     right: 500px;
     top: 280px;
     font-weight: lighter;
-    font-family: 'Great Vibes', cursive;
+    font-family: "Bungee Hairline", cursive;
     letter-spacing: 6px;
     color: #ed630a;
     text-align: center;
   }
 
-  #simbolo-container-landing {
-    font-family: 'Great Vibes', cursive;
-    font-size: 18px;
-    font-weight: 100;
-    color: #ed630a;
-  }
 
   .title-podcasts {
     position: absolute;
