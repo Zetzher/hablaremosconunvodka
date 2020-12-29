@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 let Directo = () => {
   let live = true;
@@ -23,11 +24,11 @@ let Directo = () => {
 
               return (
                 <div>
+                  <a href="https://youtu.be/_Ad6F64LKI0" style={{textDecoration: 'none', color: '#ed630a', fontSize: 20, marginBottom: 20}}>Youtube</a>
                   <div
                     key={item.id}
                     className="embed-responsive embed-responsive-4by3"
                   >
-                    
                     <iframe
                       className="embed-responsive-item"
                       style={{border: 'none', width: 260}}
