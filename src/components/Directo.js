@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 let Directo = () => {
-  let live = true;
+  let live = false;
 
   const imagen = [
     {
