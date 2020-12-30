@@ -295,7 +295,6 @@ breakpoint {
     background-image: url("../assets/images/background_podcast.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
   }
 
   .podcasts-position {

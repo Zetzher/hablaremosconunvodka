@@ -38,6 +38,15 @@ let Podcasts = () => {
             allowtransparency="true"
             allow="encrypted-media"
           />
+          <iframe
+            title="01x03"
+            src="https://open.spotify.com/embed-podcast/episode/5nB8X9CoNrlrEBMIuoi7H5"
+            width="250"
+            height="300"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          />
         </div>
       </div>
     </>
