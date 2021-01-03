@@ -1,0 +1,55 @@
+@media screen and (max-width: 800px) {
+  .podcasts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../../assets/images/background_podcast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .volver-link {
+    font-family: "Bungee Hairline", cursive;
+    color: #ffa54b;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .podcasts-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .podcasts-position iframe {
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .podcasts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../../assets/images/background_podcast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .volver-link {
+    font-family: "Bungee Hairline", cursive;
+    color: #ed630a;
+    text-decoration: none;
+    font-size: 30px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+  }
+}

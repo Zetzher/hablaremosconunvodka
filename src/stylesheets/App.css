@@ -63,36 +63,6 @@ breakpoint {
     justify-content: space-between;
   }
 
-  .logo-redes-sociales {
-    width: 20px;
-    margin: 10px 25px;
-  }
-
-  .contacto-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 200px;
-    bottom: 80px;
-  }
-
-  .contacto-container span {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .contacto-container h3 {
-    margin: 0;
-    font-family: "Bungee Hairline", cursive;
-    font-size: 25px;
-    letter-spacing: 2px;
-    color: #ffa54b;
-    font-weight: lighter;
-  }
-
   .title-landing {
     line-height: 50px;
     font-size: 30px;
@@ -142,27 +112,6 @@ breakpoint {
     font-family: "Codystar", cursive;
   }
 
-  .podcasts-position h4 {
-    font-family: "Bungee Hairline", cursive;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-  }
-
-  .container-live {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    bottom: 50px;
-    left: 3px;
-  }
-
   .background-image-directo {
     width: 345px;
     height: 218px;
@@ -170,112 +119,6 @@ breakpoint {
     position: absolute;
     opacity: 0;
     z-index: 0;
-  }
-
-  .title-live {
-    color: #1e9a1f;
-    font-family: "Bungee", cursive;
-    font-size: 20px;
-    position: relative;
-    right: 15px;
-    top: 20px;
-    padding-bottom: 50px;
-  }
-
-  .title-off-live {
-    color: #ffa54b;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    position: relative;
-    letter-spacing: 10px;
-    line-height: 30px;
-    font-weight: bold;
-    bottom: 60px;
-    -webkit-animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-      both;
-    animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  }
-  @-webkit-keyframes shake-bottom {
-    0%,
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      -webkit-transform-origin: 50% 100%;
-      transform-origin: 50% 100%;
-    }
-    10% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: rotate(-4deg);
-      transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
-      -webkit-transform: rotate(4deg);
-      transform: rotate(4deg);
-    }
-    80% {
-      -webkit-transform: rotate(-2deg);
-      transform: rotate(-2deg);
-    }
-    90% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-  }
-  @keyframes shake-bottom {
-    0%,
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      -webkit-transform-origin: 50% 100%;
-      transform-origin: 50% 100%;
-    }
-    10% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: rotate(-4deg);
-      transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
-      -webkit-transform: rotate(4deg);
-      transform: rotate(4deg);
-    }
-    80% {
-      -webkit-transform: rotate(-2deg);
-      transform: rotate(-2deg);
-    }
-    90% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-  }
-
-  .container-live {
-    /* position: absolute;
-    right: 40px; */
-  }
-
-  .title-proximo-directo {
-    color: #f84620;
-    font-family: "Bungee Hairline", cursive;
-    font-size: 15px;
-    font-weight: lighter;
-    position: relative;
-    left: 15px;
-    top: 20px;
-    letter-spacing: 10px;
   }
 
   .title-temporada {
@@ -286,117 +129,54 @@ breakpoint {
     margin-bottom: 10px;
     color: #f84620;
   }
-
-  .podcasts-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url("../assets/images/background_podcast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .podcasts-position {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .podcasts-position iframe {
-    position: relative;
-    top: 200px;
-  }
-
-  .volver-link {
-    font-family: "Bungee Hairline", cursive;
-    color: #ffa54b;
-    text-decoration: none;
-    font-size: 30px;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-  }
 }
 
 @media screen and (min-width: 810px) {
-  .container-landing {
-    height: 100vh;
-  }
-
-  .logo-redes-sociales {
-    width: 40px;
-    margin: 50px 30px;
-  }
-
-  .contacto-container {
+  .landing-position {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    right: 80px;
-    top: 180px;
-    font-size: 25px;
-  }
-
-  .contacto-container span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contacto-container h3 {
-    margin-right: 10px;
-    font-family: "Bungee Hairline", cursive;
-    position: relative;
-    bottom: 60px;
-    font-size: 25px;
-    letter-spacing: 2px;
-    color: #ed630a;
-    font-weight: bolder;
-    text-shadow: 0px 0px 30px #ed630a;
-  }
-
-  .container-landing {
     height: 100vh;
     background-image: url("../assets/images/background_podcast.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+    justify-content: space-between;
+  }
+
+  .container-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
   }
 
   .title-landing {
     font-size: 100px;
-    position: absolute;
-    left: 40px;
-    top: 50px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #ed630a;
     text-shadow: 0px 0px 30px #ed630a;
+    text-align: center;
+    line-height: 130px;
   }
 
   .subtitle-landing {
     line-height: 26px;
     font-size: 25px;
-    position: absolute;
-    right: 500px;
-    top: 280px;
     font-weight: lighter;
     font-family: "Bungee Hairline", cursive;
     letter-spacing: 6px;
     color: #ed630a;
     text-align: center;
+    position: relative;
+    top: 25px;
   }
 
-
   .title-podcasts {
-    position: absolute;
-    font-size: 35px;
-    left: 50px;
-    bottom: 240px;
     text-decoration: none;
+    position: relative;
+    left: 50px;
   }
 
   .title-podcasts h3 {
@@ -406,6 +186,7 @@ breakpoint {
     font-weight: bolder;
     text-shadow: 0px 0px 30px #ed630a;
     font-weight: bolder;
+    font-size: 35px;
   }
 
   .background-image-directo {
@@ -417,192 +198,11 @@ breakpoint {
     z-index: 0;
   }
 
-  .container-live {
-    position: absolute;
-    left: 500px;
-    bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .title-live {
-    color: #1e9a1f;
-    font-family: "Bungee", cursive;
-    font-size: 40px;
-    position: relative;
-    padding-bottom: 10px;
-  }
-
-  .title-off-live {
-    text-shadow: 0px 0px 30px #ed630a;
-    color: #ed630a;
-    font-family: "Bungee Hairline", cursive;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    position: relative;
-    left: 135px;
-    bottom: 30px;
-    margin-top: 10px;
-    font-weight: bold;
-    -webkit-animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-      both;
-    animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  }
-  @-webkit-keyframes shake-bottom {
-    0%,
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      -webkit-transform-origin: 50% 100%;
-      transform-origin: 50% 100%;
-    }
-    10% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: rotate(-4deg);
-      transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
-      -webkit-transform: rotate(4deg);
-      transform: rotate(4deg);
-    }
-    80% {
-      -webkit-transform: rotate(-2deg);
-      transform: rotate(-2deg);
-    }
-    90% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-  }
-  @keyframes shake-bottom {
-    0%,
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      -webkit-transform-origin: 50% 100%;
-      transform-origin: 50% 100%;
-    }
-    10% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: rotate(-4deg);
-      transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
-      -webkit-transform: rotate(4deg);
-      transform: rotate(4deg);
-    }
-    80% {
-      -webkit-transform: rotate(-2deg);
-      transform: rotate(-2deg);
-    }
-    90% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
-    }
-  }
-
-  .title-proximo-directo {
-    color: #ed630a;
-    font-family: "Bungee Hairline", cursive;
-    font-size: 25px;
-    font-weight: bold;
-    position: relative;
-    right: 80px;
-    margin-top: 10px;
-    letter-spacing: 10px;
-  }
-
   .title-temporada {
     font-size: 30px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     margin-bottom: 10px;
     color: #ed630a;
-  }
-
-  .podcasts-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url("../assets/images/background_podcast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-
-  .podcasts-position {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    left: 20px;
-    top: 50px;
-  }
-
-  .podcasts-position iframe {
-    margin-bottom: 20px;
-    margin-right: 30px;
-  }
-
-  .podcasts-position article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .podcasts-position article div {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .podcasts-position h4 {
-    font-family: "Bungee Hairline", cursive;
-    color: white;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .podcasts-group-position {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  .volver-link {
-    font-family: "Bungee Hairline", cursive;
-    color: #ed630a;
-    text-decoration: none;
-    font-size: 30px;
-    position: fixed;
-    top: 50px;
-    left: 50px;
   }
 }

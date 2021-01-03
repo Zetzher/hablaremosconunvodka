@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./directo.css";
 
 let Directo = () => {
   let live = false;
@@ -23,8 +23,8 @@ let Directo = () => {
               // colocamos el objeto 'id: 1' en <div key={ item.id
 
               return (
-                <div>
-                  <a href="https://youtu.be/_Ad6F64LKI0" style={{textDecoration: 'none', color: '#ed630a', fontSize: 20, marginBottom: 20}}>Youtube</a>
+                <div className="on-live">
+                  <a href="https://youtu.be/_Ad6F64LKI0" style={{color: '#ed630a', fontSize: 20, position: 'relative', bottom: 10, letterSpacing: 10}}>Youtube</a>
                   <div
                     key={item.id}
                     className="embed-responsive embed-responsive-4by3"
@@ -40,7 +40,7 @@ let Directo = () => {
               );
             })}
           </>
-        ) : {/*<h4 className="title-off-live">Proximo Directo<br/>29 de Diciembre<br/>22:00</h4>*/}, null}
+        ) : <h4 className="title-off-live">Proximo Directo<br/>29 de Diciembre<br/>22:00</h4>}
       </div>
     </>
   );

@@ -1,7 +1,8 @@
 import React from "react";
-import InstagramLogo from "../assets/images/logo_instagram.png";
-import TwitterLogo from "../assets/images/logo_twitter.png";
-import Youtube from "../assets/images/logo_youtube.png";
+import InstagramLogo from "../../assets/images/logo_instagram.png";
+import TwitterLogo from "../../assets/images/logo_twitter.png";
+import Youtube from "../../assets/images/logo_youtube.png";
+import "./contacto.css";
 
 let Footer = () => {
   return (

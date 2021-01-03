@@ -1,5 +1,5 @@
 import React from "react";
-import Podcasts from "../components/Podcasts";
+import Podcasts from "../components/Podcasts/Podcasts.js";
 
 let PodcastsPage = () => {
   return (
