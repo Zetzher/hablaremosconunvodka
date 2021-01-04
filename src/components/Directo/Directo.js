@@ -40,7 +40,7 @@ let Directo = () => {
               );
             })}
           </>
-        ) : <h4 className="title-off-live">Próximo Directo<br/>8 de Enero<br/>22:00</h4>}
+        ) : {/*<h4 className="title-off-live">Próximo Directo<br/>8 de Enero<br/>22:00</h4>*/}, null}
       </div>
     </>
   );
