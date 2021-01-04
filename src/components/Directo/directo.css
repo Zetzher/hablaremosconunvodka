@@ -5,22 +5,25 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  .on-live {
     position: relative;
-    bottom: 170px;
+    top: 200px;
   }
 
   .title-off-live {
     color: #ffa54b;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
-    position: relative;
     letter-spacing: 10px;
     line-height: 30px;
     font-weight: bold;
-    bottom: 60px;
     -webkit-animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
       both;
     animation: shake-bottom 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    position: relative;
+    top: 230px;
   }
   @-webkit-keyframes shake-bottom {
     0%,

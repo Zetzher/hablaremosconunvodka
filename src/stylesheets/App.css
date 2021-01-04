@@ -51,23 +51,21 @@ breakpoint {
 }
 
 @media screen and (max-width: 800px) {
-  .container-landing {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../assets/images/background_podcast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+  .landing-position {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    background-image: url("../assets/images/background_podcast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: space-between;
   }
 
   .title-landing {
     line-height: 50px;
     font-size: 30px;
-    position: relative;
-    top: 10px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
     color: #ffa54b;
@@ -79,8 +77,9 @@ breakpoint {
   .span-borde-separador {
     width: 60px;
     height: 1px;
-    position: relative;
-    bottom: 100px;
+    position: absolute;
+    left: 170px;
+    top: 170px;
     background-color: #ffef4b;
     opacity: 0.3;
   }
@@ -94,14 +93,14 @@ breakpoint {
     text-align: center;
     line-height: 20px;
     position: relative;
-    bottom: 200px;
+    top: 50px;
   }
 
   .title-podcasts {
     text-decoration: none;
     position: absolute;
     top: 320px;
-    left: 100px;
+    left: 90px;
   }
 
   .title-podcasts h3 {
@@ -126,8 +125,6 @@ breakpoint {
     font-size: 30px;
     font-family: "Codystar", cursive;
     letter-spacing: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
     color: #f84620;
   }
 }
